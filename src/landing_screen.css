@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.header span h6 {
+  font-weight: bolder;
+}
+
+.header img {
+  width: 11.5%;
+  margin: 0px 60px;
+}
+.top_menus {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray !important;
+}
+.top_menus p {
+  margin: 0px !important;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.right_sectcion {
+  text-align: right;
+}
+
+.section_body {
+  padding: 24px 170px;
+}
+.button_round {
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: none !important;
+}
+.button_round_secondary {
+  border-radius: 20px;
+  padding: 6px 1px;
+  border: none !important;
+  font-size: 14px;
+  text-align: center;
+}
+.primary_bgcolor {
+  background-color: #ffffff;
+}
+
+.card {
+  border: none !important;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.rhino {
+  color: white;
+  background-color: black;
+}
+
+.sketchup {
+  color: white;
+  margin-right: -20px;
+  background-color: black;
+}
+
+.vectorworks {
+  color: white;
+  background-color: black;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.rhino_sketchup {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.text_body {
+  font-size: 18px;
+}
+
+.onsite {
+  background-color: pink;
+  margin: 0;
+}
+
+.message {
+  color: white;
+  background-color: black;
+  margin: auto;
+}
+.User_details {
+  padding: 28px 55px;
+}
+.u_detais_text {
+  line-height: 22px;
+}
+@media screen and (max-width: 780px) {
+  .content .text p {
+    font-size: 11px;
+    margin-top: 12px;
+  }
+  .header img {
+    width: 4.5%;
+    margin-top: 17px;
+  }
+}
